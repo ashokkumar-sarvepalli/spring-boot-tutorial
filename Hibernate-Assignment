@@ -1,5 +1,21 @@
 http://websystique.com/spring/spring4-hibernate4-mysql-maven-integration-example-using-annotations/
 
+
+(In case of issues)
+#start
+[
+
+   
+#mysql-8.0.13-macos10.14-x86_64.dmg
+#mysql-workbench-community-8.0.13
+#use the command if any connectivity issues
+#ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Ashok@Tutor';
+
+		<mysql.version>5.1.44</mysql.version>. -- java mysql connector jar (driver)
+
+]
+#emd
+
 Steps to be done:
 
 1) make sure hibernate dependencies are added!!
