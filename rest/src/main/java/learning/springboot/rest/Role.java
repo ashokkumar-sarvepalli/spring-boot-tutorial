@@ -1,5 +1,9 @@
 package learning.springboot.rest;
 
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -44,7 +48,12 @@ public class Role {
 		return "Role [id=" + id + ", name=" + name + "]";
 	}
 	
-	
+	public static void main(String []args) {
+		
+		Instant.parse("2019-01-19T17:22:20.3521Z");
+		ZonedDateTime currentTime = ZonedDateTime.now(ZoneId.of("UTC"));
+		System.out.println(currentTime);
+	}
 	
 	
 	
